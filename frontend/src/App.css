@@ -1,0 +1,81 @@
+.app {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.cds--content {
+  background-color: #ffffff;
+  min-height: calc(100vh - 48px);
+  padding: 0;
+}
+
+.home-page,
+.build-pizza-page,
+.track-order-page,
+.admin-dashboard-page {
+  max-width: 1584px;
+  margin: 0 auto;
+}
+
+/* Custom spacing for form elements */
+.cds--form-item {
+  margin-bottom: 1.5rem;
+}
+
+/* Improve readability */
+.cds--tile {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 672px) {
+  .home-page,
+  .build-pizza-page,
+  .track-order-page,
+  .admin-dashboard-page {
+    padding: 1rem;
+  }
+}
+
+/* Progress indicator styling */
+.cds--progress-step svg {
+  fill: #0f62fe;
+}
+
+/* Data table improvements */
+.cds--data-table {
+  background-color: #ffffff;
+}
+
+.cds--data-table td {
+  vertical-align: middle;
+}
+
+/* Button spacing */
+.cds--btn + .cds--btn {
+  margin-left: 0.5rem;
+}
+
+/* Tag spacing in pizza summary */
+.cds--tag {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Header styling */
+.cds--header {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Loading state */
+.cds--loading {
+  margin: 2rem auto;
+}
+
+/* Notification styling */
+.cds--inline-notification {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Made with Bob */
